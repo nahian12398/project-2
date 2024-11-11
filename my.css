@@ -1,0 +1,88 @@
+.container{
+    max-width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    margin-top: 15px auto 0 auto;
+ box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+
+}
+.elements{
+ background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    display: grid;
+grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+gap: 25px;
+margin: 0px 20px;
+
+
+}
+.ad{
+    grid-column: span 2;
+}
+.heading{
+    margin: 20px 15px;
+}
+.small{
+    font-size: large;
+}
+.inputt{
+    height: 30px;
+    width: 270px;
+    margin-top: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: medium;
+    padding: 5px 0;
+  
+}
+.btn{
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    color: #FFFFFF ;
+    font-weight: 500;
+    font-size: medium;
+    margin: 10px;
+}
+.btn-2{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.add{
+    height: 50px;
+    width: 560px;
+    resize: both;
+    overflow: auto;
+    text-indent: 8px;
+    font-size: large;
+    padding: 5px 0 0 0 ;
+}
+.inputt:focus{
+    outline-color: #FF0000;
+}
+@media screen and (max-width:630px){
+    .inputs{
+        display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0px 20px;
+    }
+    .add{
+        height: auto;
+        width: 270px;
+        resize: both;
+        overflow: auto;
+        text-indent: 8px;
+        font-size: large;
+        padding: 5px 0 0 0 ;
+    }
+}
