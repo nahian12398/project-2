@@ -69,6 +69,11 @@ margin: 0px 20px;
 .inputt:focus{
     outline-color: #FF0000;
 }
+.btn:hover{
+    border-color: red;
+    background-color: gray;
+    color: black;
+}
 @media screen and (max-width:630px){
     .inputs{
         display: flex;
